@@ -15,4 +15,6 @@
 
 = Book notes
 
+#include "book/1/chapter1_1.typ"
+
 = Lecture notes
