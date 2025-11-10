@@ -1,0 +1,18 @@
+#import "lib.typ"
+
+#let title = [Basic Approaches to the Semantics of Computation Notes]
+#set page(
+   paper: "a4",
+   header: align(left, title),
+   numbering: "1",
+)
+
+#align(center, text(17pt)[
+   *#title*
+
+   Matteo Bongiovanni\
+])
+
+= Book notes
+
+= Lecture notes
