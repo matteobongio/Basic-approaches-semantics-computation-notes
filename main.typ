@@ -17,4 +17,6 @@
 
 #include "book/1/chapter1_1.typ"
 
+#include "book/1/chapter1_2.typ"
+
 = Lecture notes
