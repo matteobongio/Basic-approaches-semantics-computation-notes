@@ -104,3 +104,6 @@
     ..opts
   )
 }
+
+#let def = $attach(=, t: "def")$
+#let mighteq = $attach(=, t:?)$
