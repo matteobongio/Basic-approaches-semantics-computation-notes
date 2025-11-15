@@ -1,7 +1,7 @@
 #import "../../lib.typ": *
 #import "@preview/fletcher:0.5.8" as fletcher: diagram, node, edge
 
-= A Taste of Semantic Methods: Numberical Expressions
+== Chapter 1.2: A Taste of Semantic Methods: Numberical Expressions
 
 #Definitionbox("Concrete vs Abstract Syntax", [
   _Concrete_ syntax is concerned with the precise linear sequences of symbols which are valid terms of the language.

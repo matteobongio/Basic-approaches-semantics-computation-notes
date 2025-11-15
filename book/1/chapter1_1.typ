@@ -1,6 +1,6 @@
 #import "../../lib.typ": *
 
-= Structure and Meaning
+== Chapter 1.1: Structure and Meaning
 
 All programming languages are fully defined in terms of 
 - Syntax: appearance of the programs of the language

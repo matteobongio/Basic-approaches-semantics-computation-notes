@@ -1,5 +1,5 @@
 #import "../../lib.typ": *
-
+== Chapter 2.1: Notation
 #Notationbox([
   - Capital Letters denote sets, lowercase for an element of a set
   - $BB def {bold("true"), bold("false")}$
