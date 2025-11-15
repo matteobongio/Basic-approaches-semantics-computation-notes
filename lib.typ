@@ -107,3 +107,4 @@
 
 #let def = $attach(=, t: "def")$
 #let mighteq = $attach(=, t:?)$
+#let tsx = $T_(Sigma,X)$

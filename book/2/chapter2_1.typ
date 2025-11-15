@@ -16,9 +16,6 @@
   - $f$ can be written as ${(a, f(a)) | a in A} subset.eq A times B$
 ])
 
-
-#let tsx = $T_(Sigma,X)$
-
 #Definitionbox("Signature", [
   A onesorted/unsorted _signature_  is a set of function symbols such that each symbol is assigned
   and _arity_ (arity 0 is a constant) ($Sigma = {c, f, g}$). Let $Sigma_n subset.eq Sigma$ be the
