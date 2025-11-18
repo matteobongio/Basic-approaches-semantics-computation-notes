@@ -25,6 +25,8 @@
 
 #include "book/2/chapter2_2.typ"
 
+#include "book/4/chapter4_1.typ"
+
 = Lecture notes
 
 == Lecture 1

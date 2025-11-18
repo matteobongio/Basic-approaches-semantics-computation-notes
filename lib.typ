@@ -108,3 +108,5 @@
 #let def = $attach(=, t: "def")$
 #let mighteq = $attach(=, t:?)$
 #let tsx = $T_(Sigma,X)$
+#let tprec = $attach(prec, tr: +)$
+#let trprec = $attach(prec, tr: *)$
