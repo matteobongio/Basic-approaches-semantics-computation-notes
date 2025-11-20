@@ -98,12 +98,11 @@
     We denote $G rho$ the set of potential equalities obtained b applying $rho$ to all terms in $G$
     $ {l_1 mighteq r_1, ..., l_n mighteq r_n} rho = {l_1 rho mighteq r_1 rho, ..., l_n rho mighteq r_n rho} $
   
-  The unification algorithm applies the following steps:
-  - delete: $G union {t mighteq t}$ is transformed into $G$
-  - decompose: $G union {f(t_1, ..., t_m) mighteq f(u_1, ..., u_m)}$ is transformed into \
-    $G union {t_1 mighteq u_1, ..., t_m mighteq u_m}$
-  - swap: $G union {f(t_1, ..., t_m) mighteq x}$ is transformed into $G union {x mighteq f(t_1, ..., t_m)}$
-  - eliminate: $G union {x mighteq t}$ is transformed into $G[x = t] union {x mighteq t}$ if $x in "vars"(G) and x in.not "vars"(t)$
-  - conflict $G union {f(t_1, ..., t_m) mighteq g (u_1,..., u_h)}$ leads to failure if $f != g or m != h$
-  - occur check: $G union {x mighteq f(t_1, ..., t_m)}$ leads to failure if $x in "vars"(f(t_1,...,t_m))$
 ])
+*The unification algorithm applies the following steps:*
+#greenbox("delete", [$G union {t mighteq t}$ is transformed into $G$])
+#greenbox("decompose", [ $G union {f(t_1, ..., t_m) mighteq f(u_1, ..., u_m)}$ is transformed into $G union {t_1 mighteq u_1, ..., t_m mighteq u_m}$ ])
+#greenbox("swap", [ $G union {f(t_1, ..., t_m) mighteq x}$ is transformed into $G union {x mighteq f(t_1, ..., t_m)}$ ])
+#greenbox("eliminate", [ $G union {x mighteq t}$ is transformed into $G[x = t] union {x mighteq t}$ if $x in "vars"(G) and x in.not "vars"(t)$ ])
+#redbox("conflict", [$G union {f(t_1, ..., t_m) mighteq g (u_1,..., u_h)}$ leads to failure if $f != g or m != h$ ])
+#redbox("occur", [check: $G union {x mighteq f(t_1, ..., t_m)}$ leads to failure if $x in "vars"(f(t_1,...,t_m))$ ])
